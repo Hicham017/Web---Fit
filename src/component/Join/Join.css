@@ -1,55 +1,62 @@
 .Join {
-    display: flex;
-    padding: 0 2rem;
-    gap: 10rem;
+  display: flex;
+  padding: 0 2rem;
+  gap: 10rem;
+  margin-top: 100px;
 }
 
-.left-j{
-    color: aliceblue;
-    font-size: 3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: relative;
+.left-j {
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
 }
 
-.left-j>hr{
-    position: absolute;
-    width: 10.5rem;
-    border: 2px solid orange;
-    border-radius: 20%;
-    margin: -10px 0;
+.left-j > hr {
+  position: absolute;
+  width: 10.5rem;
+  border: 2px solid orange;
+  border-radius: 20%;
+  margin: -10px 0;
 }
 
-.left-j>div{
-    display: flex;
-    gap: 1rem;
+.left-j > div {
+  display: flex;
+  gap: 1rem;
 }
 
-.right-j{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.right-j {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.email-container{
-    display: flex;
-    gap: 3rem;
-    background-color: gray;
-    padding: 1rem 2rem;
+.email-container {
+  display: flex;
+  gap: 3rem;
+  background-color: gray;
+  padding: 1rem 2rem;
+  left: 50rem;
 }
 
-.email-container>input{
-    background-color: transparent;
-    border: none;
-    outline: none;
-    color: #9C8A75;
+.email-container > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #4dccff;
 }
 
-::placeholder{
-    color: #9C8A75;
+::placeholder {
+  color: #9c8a75;
 }
 
-.btn-j{
-    background-color: rgb(238,148,20) linear-gradient(14deg, rgba(238,148,20,1) 54%, rgba(232,241,21,1) 100%);;
-    color: aliceblue;
+.btn-j {
+  background: rgb(238, 148, 20)
+    linear-gradient(
+      14deg,
+      rgba(238, 148, 20, 1) 54%,
+      rgba(232, 241, 21, 1) 100%
+    );
+  color: aliceblue;
 }

@@ -73,8 +73,8 @@
   display: flex;
   gap: 1rem;
   position: absolute;
-  bottom: 1rem;
-  left: 3rem;
+  bottom: -3rem;
+  left: 28rem;
 }
 
 .arrows > img {
