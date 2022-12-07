@@ -43,9 +43,9 @@ const Join = () => {
           <input
             type="email"
             name="user_email"
-            placeholder="Enter your email adress"
+            placeholder="Entrez votre adresse @mail"
           />
-          <button className="btn-j">Join Now</button>
+          <button className="btn-j">Rejoindre</button>
         </form>
       </div>
     </div>

@@ -90,7 +90,7 @@ class Hero extends Component {
           {/* hero images */}
           <img src={hero_image} alt="" className="hero-image" />
           <motion.img
-            intial={{ right: "11rem" }}
+            initial={{ right: "11rem" }}
             whileInView={{ right: "20rem" }}
             transition={transition}
             src={hero_image_back}
